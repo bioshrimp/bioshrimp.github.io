@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[My Octopress Blog]]></title>
+  <link href="http://bioshrimp.github.io/atom.xml" rel="self"/>
+  <link href="http://bioshrimp.github.io/"/>
+  <updated>2013-06-10T01:29:54+02:00</updated>
+  <id>http://bioshrimp.github.io/</id>
+  <author>
+    <name><![CDATA[Bioshrimp]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[First Post]]></title>
+    <link href="http://bioshrimp.github.io/blog/2013/06/09/first-post/"/>
+    <updated>2013-06-09T21:28:00+02:00</updated>
+    <id>http://bioshrimp.github.io/blog/2013/06/09/first-post</id>
+    <content type="html"><![CDATA[<p>test</p>
+]]></content>
+  </entry>
+  
+</feed>
