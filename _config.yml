@@ -4,10 +4,11 @@
 
 url: http://bioshrimp.github.io
 title: My Octopress Blog
-subtitle: Maybe I am, Maybe I am not [plays tune on flute]
+subtitle: Maybe I am
 author: Bioshrimp
 simple_search: http://google.com/search
 description:
+
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -16,7 +17,7 @@ description:
 date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
-subscribe_rss: /bioshrimp/atom.xml
+subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
 email:
@@ -26,10 +27,10 @@ email:
 # ----------------------- #
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
-root: /bioshrimp
+root: /
 permalink: /blog/:year/:month/:day/:title/
 source: source
-destination: public/bioshrimp
+destination: public/
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
