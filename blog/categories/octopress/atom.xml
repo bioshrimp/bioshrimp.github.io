@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Biosɥɹıɯd]]></title>
-  <link href="http://bioshrimp.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: octopress | Biosɥɹıɯd]]></title>
+  <link href="http://bioshrimp.github.io/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://bioshrimp.github.io/"/>
   <updated>2013-06-16T18:51:25+02:00</updated>
   <id>http://bioshrimp.github.io/</id>
@@ -19,15 +19,6 @@
     <updated>2013-06-16T17:31:00+02:00</updated>
     <id>http://bioshrimp.github.io/blog/2013/06/16/octo</id>
     <content type="html"><![CDATA[<p>The instructions for setting up <a href="http://octopress.org/docs/setup/">Octopress</a> sounded super easy. When it came to deploying to GitHub though <code>$ rake setup_github_pages</code> wouldn´t <code>Switch the active branch from master to source</code>. My attempt to set this up manually then fucked up the configurations. Unfortunately I did not succeed to fix it myself but <a href="https://twitter.com/fidothe">Matt</a> from our <a href="https://twitter.com/RubyMonsters">@RubyMonster</a> study group helped out and we got it working in the end. I am thrilled when I can find the answers searching on the internet but often, especially as a learner, I just fail to recognize possible solutions which can be extremely frustrating. So it&rsquo;s absolutley amazing to have people around whom I can ask directly as well. I think I would given up long ago if it were just me and a search engine.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[First Post]]></title>
-    <link href="http://bioshrimp.github.io/blog/2013/06/09/first-post/"/>
-    <updated>2013-06-09T21:28:00+02:00</updated>
-    <id>http://bioshrimp.github.io/blog/2013/06/09/first-post</id>
-    <content type="html"><![CDATA[<p>Yay, I set up an Octopress blog and deployed it to GitHub. No idea why. Wait, I do. I think I want to write about my learning experiences.</p>
 ]]></content>
   </entry>
   
