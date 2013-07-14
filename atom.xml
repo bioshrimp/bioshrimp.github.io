@@ -4,7 +4,7 @@
   <title><![CDATA[Biosɥɹıɯd]]></title>
   <link href="http://bioshrimp.github.io/atom.xml" rel="self"/>
   <link href="http://bioshrimp.github.io/"/>
-  <updated>2013-06-16T18:59:24+02:00</updated>
+  <updated>2013-07-14T15:35:29+02:00</updated>
   <id>http://bioshrimp.github.io/</id>
   <author>
     <name><![CDATA[Bioshrimp]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Scribbles for Rails Girls SoC]]></title>
+    <link href="http://bioshrimp.github.io/blog/2013/07/14/scribbles-for-rails-girls-soc/"/>
+    <updated>2013-07-14T14:35:00+02:00</updated>
+    <id>http://bioshrimp.github.io/blog/2013/07/14/scribbles-for-rails-girls-soc</id>
+    <content type="html"><![CDATA[<p>Programming progress is currently not happening. I am still haven´t passed chapter 5 of the <a href="http://ruby.railstutorial.org/ruby-on-rails-tutorial-book?version=4.0#sec-install_rails">Michael Hartl Rails tutorial</a>. But there are other things:
+I was kindly asked if I would like to do some drawings for <a href="http://railsgirlssummerofcode.org/">Rails Girls Summer of Code</a> website, an organisation which is helping students to work on open source projects for a few month. A really supreme cool thing and if I hadn&rsquo;t a full time job I would have loved to apply myself.</p>
+
+<!-- more -->
+
+
+<p><img class="center" src="http://farm4.staticflickr.com/3758/9173836468_6c0b6f760e_z.jpg" title="(600 800 Moi" ></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Octo]]></title>
