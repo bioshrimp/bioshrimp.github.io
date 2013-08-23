@@ -4,7 +4,7 @@
   <title><![CDATA[Category: railsgirls summer of code | Biosɥɹıɯd]]></title>
   <link href="http://bioshrimp.github.io/blog/categories/railsgirls-summer-of-code/atom.xml" rel="self"/>
   <link href="http://bioshrimp.github.io/"/>
-  <updated>2013-08-12T22:06:27+02:00</updated>
+  <updated>2013-08-23T03:05:54+02:00</updated>
   <id>http://bioshrimp.github.io/</id>
   <author>
     <name><![CDATA[Bioshrimp]]></name>
@@ -24,7 +24,7 @@ I was kindly asked if I would like to do some drawings for <a href="http://rails
 <!-- more -->
 
 
-<p><img class="center <a" src="href="http://farm4.staticflickr.com/3758/9173836468_6c0b6f760e_z.jpg">http://farm4.staticflickr.com/3758/9173836468_6c0b6f760e_z.jpg</a>" title="(600 800 Moi" ></p>
+<p>{% img center <a href="http://farm4.staticflickr.com/3758/9173836468_6c0b6f760e_z.jpg">http://farm4.staticflickr.com/3758/9173836468_6c0b6f760e_z.jpg</a> (600 800 Moi %}</p>
 ]]></content>
   </entry>
   
