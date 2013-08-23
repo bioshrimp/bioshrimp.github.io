@@ -10,8 +10,21 @@ categories:  [tutorial, rails 4, learning]
 
 The truth is that noticed that I learn much better watching a tutorial than reading one. But no worries, I will finish the Hartl tutorial (yes, eventually!).
 
-While building a little app in Rails (with users, authentification and stuff) I ran into a few problems with Rails 4 and Devise. The video tutorial was using a previous version of Rails and thus still required adding stuff (first_name, last_name, profile_name) to the Model´s attr_accessible. But THERE IS NO attr_accessible in Rails 4 anymore. So I had to read about what to do instead, strong parameters etc (whoop, whoop). The Devise documentation got me a bit confused so I found [this guide](http://blog.12spokes.com/web-design-development/adding-custom-fields-to-your-devise-user-model-in-rails-4/) to help me make my user whole again.
+While building a little app in Rails (with users, authentication and stuff) I ran into a few problems with Rails 4 and Devise. The video tutorial was using a previous version of Rails and thus still required adding stuff (first_name, last_name, profile_name) to the Model´s attr_accessible. But THERE IS NO attr_accessible in Rails 4 anymore. So I had to read about what to do instead, strong parameters etc (whoop, whoop). The Devise documentation got me a bit confused so I found [this guide](http://blog.12spokes.com/web-design-development/adding-custom-fields-to-your-devise-user-model-in-rails-4/) to help me make my user whole again.
 
-Also....turbolinks! But that´s a whole nuther thang.
+Also....turbolinks! But that´s a whole nuther thang:
+<!-- more -->
+<iframe src="http://loopc.am/bioshrimp/loops/headdesking-hard.widget" width="340" height="390" scrolling="no" frameborder="no" allowTransparency="true"></iframe> 
 
+There seems to be a conflict with javascript and turbolinks, so my hover effects would
+only work after reloading the page. But adding the (document).ready part to my coffeescript fixed it: 
+
+<pre><code>ready = ->
+   $('.status').hover (event) ->
+    $(this).toggleClass("hover")
+
+$(document).ready(ready)
+$(document).on('page:load', ready)
+</code></pre>
+[source](http://stackoverflow.com/questions/17317816/rails-javascript-only-works-after-reload)
 
