@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Biosɥɹıɯd</title>
+  <title>Bioshrimp</title>
   <meta name="author" content="Bioshrimp">
 
   
-  <meta name="description" content="In Ruby only nil and false are falsey. Everything else is truthy. The truth is that noticed that I learn much better watching a tutorial than reading &hellip;">
+  <meta name="description" content="In my app I want to accept a pending friend request. But when I hit the &ldquo;accept&rdquo; button I get a NoMethodError in UserFriendship#edit: &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -21,7 +21,7 @@
   <link rel="canonical" href="http://bioshrimp.github.io">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <link href="/atom.xml" rel="alternate" title="Biosɥɹıɯd" type="application/atom+xml">
+  <link href="/atom.xml" rel="alternate" title="Bioshrimp" type="application/atom+xml">
   <script src="/javascripts/modernizr-2.0.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
@@ -36,7 +36,7 @@
 
 <body   >
   <header role="banner"><hgroup>
-  <h1><a href="/">Biosɥɹıɯd</a></h1>
+  <h1><a href="/">Bioshrimp</a></h1>
   
     <h2>Destination unknown</h2>
   
@@ -67,6 +67,64 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/08/30/nomethodhorror/">NoMethodHorror</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-08-30T17:36:00+02:00" pubdate data-updated="true">Aug 30<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>In my app I want to accept a pending friend request. But when I hit the &ldquo;accept&rdquo; button I get a NoMethodError in UserFriendship#edit: <code>undefined method `requested?&lsquo; for nil:NilClass</code>.</p>
+
+<p>views => user_friendship => edit.html.erb:</p>
+
+<pre><code><% if @user_friendship.requested? %>
+  Do you really want to be friends with <%= @friend.first_name %>?
+<% end %>
+
+<% if @user_friendship.accepted? %>
+  You are now friends with <%= @friend.first_name %>s
+<% end %> 
+</code></pre>
+
+
+<p>I still haven&rsquo;t figured out why <code>@user_friendship</code> returns nil.
+But I read a bit about NoMethodErrors and I found this to be a cute descriptive
+example:</p>
+
+<blockquote><p>So, you press the button on the forehead of the first person and the person says, &ldquo;Julian McNeil.&rdquo; Ok good. Then you press the button on the forehead of the second person and the person says, &ldquo;Sally Reynolds.&rdquo; Good again. When you get to the 3rd person, there is no person. Just a button on the floor that says full name. You press the button anyways. Nothing. How can that person say their full name if there is no person? That 3rd person is nil. <a href="https://teamtreehouse.com/forum/help-i-keep-getting-undefined-method-fullname-for-nilnilclass?sort=newest&amp;amp;topic=Ruby">-Source</a></p></blockquote>
+
+<p>Then I ended up reading a bit about the method <a href="http://www.ruby-on-rails-outsourcing.com/articles/2010/03/03/using-try-method/">try()</a>. If I do <code>@user_friendship.try(:requested?)</code> I can &ldquo;escape&rdquo; that NoMethodError. It´s not going to solve my problem but at least I got my tests to pass for a moment ;).</p>
+
+<p><img src="https://monosnap.com/image/sOOgbAv1r7R9IdRa6BhH4uDh9.png" alt="Alt text" /></p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -283,6 +341,10 @@ I was kindly asked if I would like to do some drawings for <a href="http://rails
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/08/30/nomethodhorror/">NoMethodHorror</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2013/08/22/truthy/">Truthy</a>

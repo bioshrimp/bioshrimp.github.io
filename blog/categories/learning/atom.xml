@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: learning | Biosɥɹıɯd]]></title>
+  <title><![CDATA[Category: learning | Bioshrimp]]></title>
   <link href="http://bioshrimp.github.io/blog/categories/learning/atom.xml" rel="self"/>
   <link href="http://bioshrimp.github.io/"/>
-  <updated>2013-08-30T16:13:54+02:00</updated>
+  <updated>2013-08-31T12:52:22+02:00</updated>
   <id>http://bioshrimp.github.io/</id>
   <author>
     <name><![CDATA[Bioshrimp]]></name>
@@ -12,6 +12,37 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[NoMethodHorror]]></title>
+    <link href="http://bioshrimp.github.io/blog/2013/08/30/nomethodhorror/"/>
+    <updated>2013-08-30T17:36:00+02:00</updated>
+    <id>http://bioshrimp.github.io/blog/2013/08/30/nomethodhorror</id>
+    <content type="html"><![CDATA[<p>In my app I want to accept a pending friend request. But when I hit the &ldquo;accept&rdquo; button I get a NoMethodError in UserFriendship#edit: <code>undefined method `requested?&lsquo; for nil:NilClass</code>.</p>
+
+<p>views => user_friendship => edit.html.erb:</p>
+
+<pre><code><% if @user_friendship.requested? %>
+  Do you really want to be friends with <%= @friend.first_name %>?
+<% end %>
+
+<% if @user_friendship.accepted? %>
+  You are now friends with <%= @friend.first_name %>s
+<% end %> 
+</code></pre>
+
+
+<p>I still haven&rsquo;t figured out why <code>@user_friendship</code> returns nil.
+But I read a bit about NoMethodErrors and I found this to be a cute descriptive
+example:</p>
+
+<blockquote><p>So, you press the button on the forehead of the first person and the person says, &ldquo;Julian McNeil.&rdquo; Ok good. Then you press the button on the forehead of the second person and the person says, &ldquo;Sally Reynolds.&rdquo; Good again. When you get to the 3rd person, there is no person. Just a button on the floor that says full name. You press the button anyways. Nothing. How can that person say their full name if there is no person? That 3rd person is nil. <a href="https://teamtreehouse.com/forum/help-i-keep-getting-undefined-method-fullname-for-nilnilclass?sort=newest&amp;amp;topic=Ruby">-Source</a></p></blockquote>
+
+<p>Then I ended up reading a bit about the method <a href="http://www.ruby-on-rails-outsourcing.com/articles/2010/03/03/using-try-method/">try()</a>. If I do <code>@user_friendship.try(:requested?)</code> I can &ldquo;escape&rdquo; that NoMethodError. It´s not going to solve my problem but at least I got my tests to pass for a moment ;).</p>
+
+<p><img src="https://monosnap.com/image/sOOgbAv1r7R9IdRa6BhH4uDh9.png" alt="Alt text" /></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Truthy]]></title>

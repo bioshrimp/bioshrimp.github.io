@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: tutorial | Bioshrimp]]></title>
-  <link href="http://bioshrimp.github.io/blog/categories/tutorial/atom.xml" rel="self"/>
+  <title><![CDATA[Category: NoMethodError | Bioshrimp]]></title>
+  <link href="http://bioshrimp.github.io/blog/categories/nomethoderror/atom.xml" rel="self"/>
   <link href="http://bioshrimp.github.io/"/>
   <updated>2013-08-31T12:52:22+02:00</updated>
   <id>http://bioshrimp.github.io/</id>
@@ -41,43 +41,6 @@ example:</p>
 <p>Then I ended up reading a bit about the method <a href="http://www.ruby-on-rails-outsourcing.com/articles/2010/03/03/using-try-method/">try()</a>. If I do <code>@user_friendship.try(:requested?)</code> I can &ldquo;escape&rdquo; that NoMethodError. It´s not going to solve my problem but at least I got my tests to pass for a moment ;).</p>
 
 <p><img src="https://monosnap.com/image/sOOgbAv1r7R9IdRa6BhH4uDh9.png" alt="Alt text" /></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Truthy]]></title>
-    <link href="http://bioshrimp.github.io/blog/2013/08/22/truthy/"/>
-    <updated>2013-08-22T18:30:00+02:00</updated>
-    <id>http://bioshrimp.github.io/blog/2013/08/22/truthy</id>
-    <content type="html"><![CDATA[<blockquote><p><a href="https://gist.github.com/jfarmer/2647362">In Ruby only nil and false are falsey. Everything else is truthy</a>.</p></blockquote>
-
-<p>The truth is that noticed that I learn much better watching a tutorial than reading one. But no worries, I will finish the Hartl tutorial (yes, eventually!).</p>
-
-<p>While building a little app in Rails (with users, authentication and stuff) I ran into a few problems with Rails 4 and Devise. The video tutorial was using a previous version of Rails and thus still required adding stuff (first_name, last_name, profile_name) to the Model´s attr_accessible. But THERE IS NO attr_accessible in Rails 4 anymore. So I had to read about what to do instead, strong parameters etc (whoop, whoop). The Devise documentation got me a bit confused so I found <a href="http://blog.12spokes.com/web-design-development/adding-custom-fields-to-your-devise-user-model-in-rails-4/">this guide</a> to help me make my user whole again.</p>
-
-<p>Also&hellip;.turbolinks! But that´s a whole nuther thang:</p>
-
-<!-- more -->
-
-
-<iframe src="http://loopc.am/bioshrimp/loops/headdesking-hard.widget" width="340" height="390" scrolling="no" frameborder="no" allowTransparency="true"></iframe>
-
-
-<p></p>
-
-<p>There seems to be a conflict with javascript and turbolinks, so my hover effects would
-only work after reloading the page. But adding the (document).ready part to my coffeescript fixed it:</p>
-
-<pre><code>ready = ->
-   $('.status').hover (event) ->
-    $(this).toggleClass("hover")
-
-$(document).ready(ready)
-$(document).on('page:load', ready)
-</code></pre>
-
-
-<p><a href="http://stackoverflow.com/questions/17317816/rails-javascript-only-works-after-reload">source</a></p>
 ]]></content>
   </entry>
   
