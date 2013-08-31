@@ -15,6 +15,7 @@ Want to learn Ruby and Rails?
 
 ** Long Tutorials ** <br />
 •  [Learn to Program (by Chris Pine)](http://pine.fm/LearnToProgram/?Chapter=01) <br />
+•  [The Poignant Guide](http://mislav.uniqpath.com/poignant-guide/)<br />
 •  [Ruby on Rails Tutorial (by Michael Hartl)](http://ruby.railstutorial.org/ruby-on-rails-tutorial-book?version=4.0#top) <br />
 •   [Learn Ruby The Hard Way](http://ruby.learncodethehardway.org/book/) <br />
 • [Rails Guides](http://guides.rubyonrails.org/)
