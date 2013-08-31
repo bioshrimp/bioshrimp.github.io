@@ -17,7 +17,7 @@ body > header h1 {
 body > header h2 {
       padding-left:5.62em;
       text-align:right;
-      @media only screen and (min-width: 432px) {
+      @media only screen and (min-width: 230px) {
               text-align:left;
               padding-left:4.8em;
       }
@@ -41,7 +41,7 @@ body > header h1:before {
       text-align:right;
       background-image:url('/images/logo3.png');
       background-repeat:no-repeat;
-      @media only screen and (min-width: 432px) {
+      @media only screen and (min-width: 230px) {
               top:.32em;
       }
       @media only screen and (min-width: 768px) {
