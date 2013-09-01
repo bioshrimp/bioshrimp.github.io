@@ -10,15 +10,16 @@ footer: true
 Want to learn Ruby and Rails?
 
 ** Short Tutorials: ** <br />
-•   [Try ruby](http://tryruby.org/levels/1/challenges/0) <br />
-•   [Ruby Monk](http://rubymonk.com/)
+•  [Try ruby](http://tryruby.org/levels/1/challenges/0) <br />
+•  [Ruby Monk](http://rubymonk.com/)<br />
+•  [Rails Cheat Sheet](http://pragtob.github.io/rails-beginner-cheatsheet/)
 
 ** Long Tutorials ** <br />
 •  [Learn to Program (by Chris Pine)](http://pine.fm/LearnToProgram/?Chapter=01) <br />
 •  [The Poignant Guide](http://mislav.uniqpath.com/poignant-guide/)<br />
 •  [Ruby on Rails Tutorial (by Michael Hartl)](http://ruby.railstutorial.org/ruby-on-rails-tutorial-book?version=4.0#top) <br />
-•   [Learn Ruby The Hard Way](http://ruby.learncodethehardway.org/book/) <br />
-• [Rails Guides](http://guides.rubyonrails.org/)
+•  [Learn Ruby The Hard Way](http://ruby.learncodethehardway.org/book/) <br />
+•  [Rails Guides](http://guides.rubyonrails.org/)
 
 
 ** Free workshops  ** <br />
