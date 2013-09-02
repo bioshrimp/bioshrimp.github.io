@@ -11,6 +11,7 @@ Want to learn Ruby and Rails?
 
 ** Short Tutorials: ** <br />
 •  [Try ruby](http://tryruby.org/levels/1/challenges/0) <br />
+•  [HacketyHack](http://hackety.com/) <br />
 •  [Ruby Monk](http://rubymonk.com/)<br />
 •  [Rails Cheat Sheet](http://pragtob.github.io/rails-beginner-cheatsheet/)
 
