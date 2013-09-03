@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: css | Bioshrimp]]></title>
+  <link href="http://bioshrimp.github.io/blog/categories/css/atom.xml" rel="self"/>
+  <link href="http://bioshrimp.github.io/"/>
+  <updated>2013-09-03T14:06:39+02:00</updated>
+  <id>http://bioshrimp.github.io/</id>
+  <author>
+    <name><![CDATA[Bioshrimp]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[D]]></title>
+    <link href="http://bioshrimp.github.io/blog/2013/09/03/dont-rush/"/>
+    <updated>2013-09-03T13:32:00+02:00</updated>
+    <id>http://bioshrimp.github.io/blog/2013/09/03/dont-rush</id>
+    <content type="html"><![CDATA[<p><img src="https://monosnap.com/image/zlsaHdl7GwUb4PlWS2N6WTXGm.png" alt="Treehouse quiz" /></p>
+]]></content>
+  </entry>
+  
+</feed>
