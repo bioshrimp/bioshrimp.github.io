@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Category: NoMethodError - Bioshrimp</title>
+  <title>Pseudo Classes - Bioshrimp</title>
   <meta name="author" content="Bioshrimp">
 
   
-  <meta name="description" content="Category: NoMethodError">
+  <meta name="description" content="I am still not able to solve my rails error so I am spending more time on learning about CSS. This is probably very basic knowledge, something &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://bioshrimp.github.ioblog/categories/nomethoderror">
+  <link rel="canonical" href="http://bioshrimp.github.io/blog/2013/09/06/pseudo-classes">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Bioshrimp" type="application/atom+xml">
@@ -66,35 +66,115 @@
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Category: NoMethodError</h1>
+    
+      <h1 class="entry-title">Pseudo Classes</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-09-06T15:25:00+02:00" pubdate data-updated="true">Sep 6<span>th</span>, 2013</time>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives" class="category">
 
 
+<div class="entry-content"><p>I am still not able to solve my rails error so I am spending more time on learning about CSS. This is probably very basic knowledge, something frontend developers do in their sleep, but I feel pretty &ldquo;Wheee&rdquo; now that I am able to target certain list items.</p>
 
-  
-  <h2>2013</h2>
+<p><strong>:nth-child</strong> will target child-elements based on their position.</p>
 
-<article>
-  
-<h1><a href="/blog/2013/08/30/nomethodhorror/">NoMethodHorror</a></h1>
-<time datetime="2013-08-30T17:36:00+02:00" pubdate><span class='month'>Aug</span> <span class='day'>30</span> <span class='year'>2013</span></time>
+<p>For example I have an unordered list and want to add a styling only to the third list-element. All I have to do is pass the number 3 into the parenthesis :</p>
 
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/nomethoderror/'>NoMethodError</a>, <a class='category' href='/blog/categories/learning/'>learning</a>, <a class='category' href='/blog/categories/rails/'>rails</a>, <a class='category' href='/blog/categories/tutorial/'>tutorial</a></span>
-</footer>
+<pre><code>li:nth-child(3) {
+    color: white;
+    background-color: black;
+}
+</code></pre>
 
 
-</article>
+<p></p>
 
+<p>I can even do more with using <em>expressions</em> such as: <strong>(an+b)</strong>.</p>
+
+<p><code>b</code> will determine the start-position
+and <code>a</code> will then select every &ldquo;<em>put a number here</em>&rdquo; element on top of that. We don&rsquo;t have to worry about <code>n</code>, it will just stay the way it is. Example: I have an unordered list and want to apply a styling to the third list item AND every 2nd item from that point on. I would use the <strong>(an+b)</strong> formula and just pass in my numbers 2 (for <code>a</code>) and 3 (for <code>b</code>).</p>
+
+<pre><code>li:nth-child(2n+3) {
+    color: white;
+    background-color: black;
+}
+</code></pre>
+
+
+<p> This would then look something like this:</p>
+
+<p><img src="https://monosnap.com/image/apdIIHRQbbcK8bipENAVtm0hH.png" alt="Alt text" /></p>
+
+<p>Cool stuff! Haha.</p>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Bioshrimp</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-09-06T15:25:00+02:00" pubdate data-updated="true">Sep 6<span>th</span>, 2013</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/css/'>css</a>, <a class='category' href='/blog/categories/pseudo-classes/'>pseudo classes</a>, <a class='category' href='/blog/categories/tutorial/'>tutorial</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://bioshrimp.github.io/blog/2013/09/06/pseudo-classes/" data-via="" data-counturl="http://bioshrimp.github.io/blog/2013/09/06/pseudo-classes/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2013/09/03/dont-rush/" title="Previous Post: D">&laquo; D</a>
+      
+      
+    </p>
+  </footer>
 </article>
 
 </div>

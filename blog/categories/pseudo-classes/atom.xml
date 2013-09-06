@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: css | Bioshrimp]]></title>
-  <link href="http://bioshrimp.github.io/blog/categories/css/atom.xml" rel="self"/>
+  <title><![CDATA[Category: pseudo classes | Bioshrimp]]></title>
+  <link href="http://bioshrimp.github.io/blog/categories/pseudo-classes/atom.xml" rel="self"/>
   <link href="http://bioshrimp.github.io/"/>
   <updated>2013-09-06T16:50:50+02:00</updated>
   <id>http://bioshrimp.github.io/</id>
@@ -50,15 +50,6 @@ and <code>a</code> will then select every &ldquo;<em>put a number here</em>&rdqu
 <p><img src="https://monosnap.com/image/apdIIHRQbbcK8bipENAVtm0hH.png" alt="Alt text" /></p>
 
 <p>Cool stuff! Haha.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[D]]></title>
-    <link href="http://bioshrimp.github.io/blog/2013/09/03/dont-rush/"/>
-    <updated>2013-09-03T13:32:00+02:00</updated>
-    <id>http://bioshrimp.github.io/blog/2013/09/03/dont-rush</id>
-    <content type="html"><![CDATA[<p><img src="https://monosnap.com/image/zlsaHdl7GwUb4PlWS2N6WTXGm.png" alt="Treehouse quiz" /></p>
 ]]></content>
   </entry>
   

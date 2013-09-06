@@ -9,8 +9,7 @@
   <meta name="author" content="Bioshrimp">
 
   
-  <meta name="description" content="
-">
+  <meta name="description" content="I am still not able to solve my rails error so I am spending more time on learning about CSS. This is probably very basic knowledge, something &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -68,6 +67,73 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/09/06/pseudo-classes/">Pseudo Classes</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-09-06T15:25:00+02:00" pubdate data-updated="true">Sep 6<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I am still not able to solve my rails error so I am spending more time on learning about CSS. This is probably very basic knowledge, something frontend developers do in their sleep, but I feel pretty &ldquo;Wheee&rdquo; now that I am able to target certain list items.</p>
+
+<p><strong>:nth-child</strong> will target child-elements based on their position.</p>
+
+<p>For example I have an unordered list and want to add a styling only to the third list-element. All I have to do is pass the number 3 into the parenthesis :</p>
+
+<pre><code>li:nth-child(3) {
+    color: white;
+    background-color: black;
+}
+</code></pre>
+
+
+<p></p>
+
+<p>I can even do more with using <em>expressions</em> such as: <strong>(an+b)</strong>.</p>
+
+<p><code>b</code> will determine the start-position
+and <code>a</code> will then select every &ldquo;<em>put a number here</em>&rdquo; element on top of that. We don&rsquo;t have to worry about <code>n</code>, it will just stay the way it is. Example: I have an unordered list and want to apply a styling to the third list item AND every 2nd item from that point on. I would use the <strong>(an+b)</strong> formula and just pass in my numbers 2 (for <code>a</code>) and 3 (for <code>b</code>).</p>
+
+<pre><code>li:nth-child(2n+3) {
+    color: white;
+    background-color: black;
+}
+</code></pre>
+
+
+<p> This would then look something like this:</p>
+
+<p><img src="https://monosnap.com/image/apdIIHRQbbcK8bipENAVtm0hH.png" alt="Alt text" /></p>
+
+<p>Cool stuff! Haha.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -386,6 +452,10 @@ I was kindly asked if I would like to do some drawings for <a href="http://rails
 <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/09/06/pseudo-classes/">Pseudo Classes</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2013/09/03/dont-rush/">D</a>
