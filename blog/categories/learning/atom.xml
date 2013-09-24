@@ -4,7 +4,7 @@
   <title><![CDATA[Category: learning | Bioshrimp]]></title>
   <link href="http://bioshrimp.github.io/blog/categories/learning/atom.xml" rel="self"/>
   <link href="http://bioshrimp.github.io/"/>
-  <updated>2013-09-23T14:11:24+02:00</updated>
+  <updated>2013-09-24T14:54:58+02:00</updated>
   <id>http://bioshrimp.github.io/</id>
   <author>
     <name><![CDATA[Bioshrimp]]></name>
@@ -40,7 +40,7 @@ example:</p>
 
 <p>Then I ended up reading a bit about the method <a href="http://www.ruby-on-rails-outsourcing.com/articles/2010/03/03/using-try-method/">try()</a>. If I do <code>@user_friendship.try(:requested?)</code> I can &ldquo;escape&rdquo; that NoMethodError. It´s not going to solve my problem but at least I got my tests to pass for a moment ;).</p>
 
-<p><img src="https://monosnap.com/image/sOOgbAv1r7R9IdRa6BhH4uDh9.png" alt="Alt text" /></p>
+<p><img width="620" src="https://monosnap.com/image/sOOgbAv1r7R9IdRa6BhH4uDh9.png" alt="gandalf" title="you shall pass"></p>
 ]]></content>
   </entry>
   

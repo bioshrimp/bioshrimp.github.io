@@ -4,7 +4,7 @@
   <title><![CDATA[Category: scribbles | Bioshrimp]]></title>
   <link href="http://bioshrimp.github.io/blog/categories/scribbles/atom.xml" rel="self"/>
   <link href="http://bioshrimp.github.io/"/>
-  <updated>2013-09-23T14:11:24+02:00</updated>
+  <updated>2013-09-24T14:54:58+02:00</updated>
   <id>http://bioshrimp.github.io/</id>
   <author>
     <name><![CDATA[Bioshrimp]]></name>
@@ -24,7 +24,7 @@ I was kindly asked if I would like to do some drawings for <a href="http://rails
 <!-- more -->
 
 
-<p><img class="center <a" src="href="http://farm4.staticflickr.com/3758/9173836468_6c0b6f760e_z.jpg">http://farm4.staticflickr.com/3758/9173836468_6c0b6f760e_z.jpg</a>" title="(600 800 Moi" ></p>
+<p>{% img center <a href="http://farm4.staticflickr.com/3758/9173836468_6c0b6f760e_z.jpg">http://farm4.staticflickr.com/3758/9173836468_6c0b6f760e_z.jpg</a> (600 800 Moi %}</p>
 ]]></content>
   </entry>
   
