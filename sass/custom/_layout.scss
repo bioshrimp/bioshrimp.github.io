@@ -1,5 +1,8 @@
 // Here you can easily change your sites's layout.
 // To give it a try, uncomment some of the lines below, make changes, rebuild your blog, and see how it works.
+
+
+
 body > header h1 {
       padding-left:2.2em;
       text-align:right;
@@ -55,7 +58,7 @@ body > header h1:before {
 //$header-padding-bottom: 1.5em;
 
 
-//$max-width: 1350px;
+$max-width: 700px;
 //$indented-lists: true;
 
 // Padding used for layout margins

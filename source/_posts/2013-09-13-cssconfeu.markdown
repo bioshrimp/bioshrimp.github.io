@@ -13,5 +13,5 @@ were too advanced for me to understand (e.g. "Mind-blowing Power of Sass 3.3." b
 enjoyable, also for a beginner. 
 
 Edit: Here is the wonderful and funny intro by Jed: 
-<iframe width="420" height="315" src="//www.youtube.com/embed/rXmVDXZAce8" frameborder="0" allowfullscreen></iframe>
+<iframe width="520" height="415" src="//www.youtube.com/embed/rXmVDXZAce8" frameborder="0" allowfullscreen></iframe>
 

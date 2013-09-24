@@ -27,4 +27,5 @@ example:
 
 Then I ended up reading a bit about the method [try()](http://www.ruby-on-rails-outsourcing.com/articles/2010/03/03/using-try-method/). If I do <code>@user_friendship.try(:requested?)</code> I can "escape" that NoMethodError. It´s not going to solve my problem but at least I got my tests to pass for a moment ;). 
 
-![Alt text](https://monosnap.com/image/sOOgbAv1r7R9IdRa6BhH4uDh9.png)
+
+<img width="620" src="https://monosnap.com/image/sOOgbAv1r7R9IdRa6BhH4uDh9.png" alt="gandalf" title="you shall pass">

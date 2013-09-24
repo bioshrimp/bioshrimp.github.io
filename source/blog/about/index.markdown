@@ -15,5 +15,5 @@ Am I learning how to program?
 
 {% img left https://secure.gravatar.com/avatar/0887c2d8e0dacd4aba7e6c4b0408cf02?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png 150 150 Moi %}
 
-One of the [RubyMonsters](https://twitter.com/RubyMonsters)<br />[Co-coaching](http://railsgirlsberlin.de/about/coaches-2/) at Rails Girls Berlin beginner workshops<br />[Find me on Twitter](https://www.twitter.com/bioshrimp)<br />[Find me on GitHub](https://github.com/bioshrimp)<br />
-[My website](http://www.ejaculesc.com)
+One of the [RubyMonsters](https://twitter.com/RubyMonsters)<br />Rails Girls beginner workshop [Co-coach](http://railsgirlsberlin.de/about/coaches-2/) <br />[Find me on Twitter](https://www.twitter.com/bioshrimp)<br />[Find me on GitHub](https://github.com/bioshrimp)<br />
+[My artsy side](http://www.ejaculesc.com)
