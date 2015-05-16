@@ -13,7 +13,7 @@ footer: false
 <img src="/images/code.png" alt="code" title="code keyboard">
 <br/ >
 
-•  One of the [RubyMonsters](https://twitter.com/RubyMonsters)<br />
+•  One of the [RubyMonsters](https://twitter.com/rubymonstas)<br />
 •  Rails Girls beginner workshop [Co-coach](http://railsgirlsberlin.de/about/coaches-2/) <br />
 •  [Find me on Twitter](https://www.twitter.com/bioshrimp)<br />
 •  [Find me on GitHub](https://github.com/bioshrimp)<br />
