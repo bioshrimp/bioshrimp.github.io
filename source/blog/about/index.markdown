@@ -19,4 +19,6 @@ footer: false
 •  [Find me on GitHub](https://github.com/bioshrimp)<br />
 •  [My illustrations](http://www.ejaculesc.com) <br/ >
 
-*Sometimes I try to learn programming. Bare with me!*
+*Sometimes I try to learn programming. Bare with me!* <br/ >
+
+{% img left https://33.media.tumblr.com/7d9288d6747a997e7c50254ebc02c508/tumblr_nog8vqyLAk1ql14d5o1_400.gif 150 150 Moi %}
