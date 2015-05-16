@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: railsgirls summer of code | Bioshrimp]]></title>
+  <title><![CDATA[Category: railsgirls summer of code | headpiano]]></title>
   <link href="http://bioshrimp.github.io/blog/categories/railsgirls-summer-of-code/atom.xml" rel="self"/>
   <link href="http://bioshrimp.github.io/"/>
-  <updated>2015-05-15T13:38:29+02:00</updated>
+  <updated>2015-05-16T12:48:38+02:00</updated>
   <id>http://bioshrimp.github.io/</id>
   <author>
     <name><![CDATA[Bioshrimp]]></name>
@@ -20,9 +20,6 @@
     <id>http://bioshrimp.github.io/blog/2013/07/14/scribbles-for-rails-girls-soc</id>
     <content type="html"><![CDATA[<p>Programming progress is currently not happening. I am still haven´t passed chapter 5 of the <a href="http://ruby.railstutorial.org/ruby-on-rails-tutorial-book?version=4.0#sec-install_rails">Michael Hartl Rails tutorial</a>. But there are other things:
 I was kindly asked if I would like to do some drawings for <a href="http://railsgirlssummerofcode.org/">Rails Girls Summer of Code</a> website, an organisation which is helping students to work on open source projects for a few month. A really supreme cool thing and if I hadn&rsquo;t a full time job I would have loved to apply myself.</p>
-
-<!-- more -->
-
 
 <p><img class="center <a" src="href="http://farm4.staticflickr.com/3758/9173836468_6c0b6f760e_z.jpg">http://farm4.staticflickr.com/3758/9173836468_6c0b6f760e_z.jpg</a>" title="(600 800 Moi" ></p>
 ]]></content>

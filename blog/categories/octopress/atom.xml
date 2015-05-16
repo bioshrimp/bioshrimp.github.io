@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: octopress | Bioshrimp]]></title>
+  <title><![CDATA[Category: octopress | headpiano]]></title>
   <link href="http://bioshrimp.github.io/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://bioshrimp.github.io/"/>
-  <updated>2015-05-15T13:38:29+02:00</updated>
+  <updated>2015-05-16T12:48:38+02:00</updated>
   <id>http://bioshrimp.github.io/</id>
   <author>
     <name><![CDATA[Bioshrimp]]></name>
