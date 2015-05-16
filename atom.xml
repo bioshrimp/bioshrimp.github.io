@@ -4,7 +4,7 @@
   <title><![CDATA[headpiano]]></title>
   <link href="http://bioshrimp.github.io/atom.xml" rel="self"/>
   <link href="http://bioshrimp.github.io/"/>
-  <updated>2015-05-16T18:20:44+02:00</updated>
+  <updated>2015-05-16T18:49:13+02:00</updated>
   <id>http://bioshrimp.github.io/</id>
   <author>
     <name><![CDATA[Bioshrimp]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[One difference between margin and padding]]></title>
+    <link href="http://bioshrimp.github.io/blog/2015/05/16/one-difference-between-margin-and-padding/"/>
+    <updated>2015-05-16T18:33:00+02:00</updated>
+    <id>http://bioshrimp.github.io/blog/2015/05/16/one-difference-between-margin-and-padding</id>
+    <content type="html"><![CDATA[<p>A little thing I learned last Monday:</p>
+
+<p>one difference between padding and margin is that padding takes the background color of the element whereas margin stays transparent.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[CSSconfeu]]></title>
